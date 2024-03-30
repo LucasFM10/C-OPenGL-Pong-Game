@@ -1,4 +1,9 @@
-// LINHA PARA COMPILAR O CÓDIGO NO TERMINAL: g++ pong-final.cpp -o pong-final -lglut -lGLU -lGL -lm -lasound
+// NO LINUX, RODAR ANTES NO TERMINAL:
+// sudo apt-get update
+// sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
+// sudo apt-get install libasound2-dev
+
+// LINHA PARA COMPILAR O CÓDIGO NO TERMINAL: g++ pong-final.cpp -o pong-final -lglut -lGLU -lGL -lm -lasound && ./pong-final 
 
 #include <GL/gl.h>
 #include <GL/glu.h>
